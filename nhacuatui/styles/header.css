@@ -1,0 +1,218 @@
+body {
+	font-family: Roboto, sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4;
+	font-style: normal;
+}
+
+#submenu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	margin: 0 auto;
+	padding: 6px 0 7px 0;
+	border-bottom: 1px solid #dadada;
+	background-color: #fff;
+	color: #222222;
+	font-size: 13px;
+	margin-bottom: 10px;
+
+/*	top: 0;
+	position: fixed;*/
+}
+.content-wrap {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu-top:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.menutop {
+	margin: 0;
+	list-style: none;
+	float: left;
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #222222;
+	overflow: hidden;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.menu-content a {
+	text-decoration: none;
+	color: #3d3d3d;
+}
+
+.menu-content a:hover {
+	color: #50b8f0;
+
+}
+
+.icon-menu-logo img {
+	height: 40px;
+	color: #2daaed;
+	line-height: 42px;
+	margin-top: 6px;
+	margin-right: 18px;
+}
+
+.menu-content {
+	align-items: center;
+	font-size: 15px;
+	padding: 10px;
+	line-height: 42px;
+}
+
+
+.div-menucon {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	display: none;
+	padding: 0;
+	font-size: 15px;
+	justify-content: space-around;
+	position: absolute;
+	top: 100%;
+	background-color: #fff;
+}
+
+.submenu-topbar {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+
+}
+
+
+.menu-con {
+	width: 130px;
+	float: left;
+	padding: 0;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	list-style: none;
+	display: block;
+	background-color: #fff;
+	border-top: 1px solid #dadada;
+	z-index: 9999999;
+
+}
+
+.menuEvent a {
+	color: red;
+	align-items: center;
+	float: left;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.menu-content:hover .div-menucon{
+	display: block;
+}
+
+.box_user {
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: auto;
+	padding-left: 25px;
+
+}
+
+.box_user ul {
+	display: block;
+	list-style: none;
+	font-size: 20px;
+	align-items: center;
+	margin: 0;
+	padding: 15px;
+}
+
+
+.box_search {
+	margin-left: 30px;
+
+}
+
+form.search::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.search input {
+	font-size: 17px;
+	border: 1px solid #2f80ed;
+	float: left;
+	background: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.search button {
+	font-size: 17px;
+	float: left;
+	padding: 10px;
+	background: #2196F3;
+	border: 1px solid grey;
+	border-right: none;
+	cursor: pointer;
+}
+
+.box-content {
+	float: left;
+	padding-top: 60px;
+	width: 100%;
+/*	display: flex;
+	flex-direction: row;
+	align-items: center;*/
+}
+
+
+.box-content:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+.box-left {
+	float: left;
+	width: 70%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.box-right {
+	float: right;
+	width: 30%;
+	background-color: green;
+}
+
+.slide-default {
+}
